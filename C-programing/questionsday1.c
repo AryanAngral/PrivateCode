@@ -1,0 +1,1 @@
+1. write a orogram to subtract two numbers and add two numbers and compare the respective output .
