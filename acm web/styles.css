@@ -1,0 +1,19 @@
+body {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.bg-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #f8f9fa;
+}

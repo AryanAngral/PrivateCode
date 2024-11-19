@@ -1,0 +1,44 @@
+create database Aryan;
+use Aryan;
+
+select 78+89;
+
+
+select lower("THERE ARE MANY PEOPLE");
+
+#substring(string,start,no.of_letters)
+
+select substring("123456789",3,3);
+
+
+select concat("Aryan","Angral");
+select concat("Aryan"," ","Angral");
+
+#ltrim
+select length(ltrim("hello how are you"));
+select length(rtrim("hello how are you"));
+select length(trim("hello how are you"));
+select length("hello how are you");
+
+
+/* left(), right(), replace() */
+select left("123456789",5),right("123456789",5);
+
+/* select replace(string,old_string,new_string) */
+select replace("hi how are you","hi how are","hello") as "new_ques";
+
+SELECT now();
+
+SELECT year(now()), day(now()), month(now()), monthname(now());
+SELECT dayname(now()), dayofyear(now()), dayofweek(now());
+
+
+
+/* char(), varchar(), int(), float(), date*/
+
+
+char(8)
+varchar()
+int
+float
+date
