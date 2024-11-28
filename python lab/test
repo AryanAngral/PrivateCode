@@ -1,0 +1,6 @@
+1. TODAY WE ARE LEARNING FILE HANDLING IN THE PYTHON
+2. In the  handling we are going to learn how to handle a text 
+3. So the basic syntex of the  handling is variable_name = open('_name', 'mode')
+4. Using mode we are allow to handle the text  in python
+5. Basic mode are used in the  are 'w', 'r', 'a'
+6. W stand for write, r stand for read, a stand for append
