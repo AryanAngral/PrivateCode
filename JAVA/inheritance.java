@@ -8,7 +8,7 @@ class Child extends Parent{
         System.out.println("Child Class Function");
     }
 }
-class inheritance{
+public class inheritance{
     public static void main(String[] args) {
         Child obj1 = new Child();
         obj1.Fun1();

@@ -7,10 +7,12 @@ public class oops {
 
     public void Diaplay(){
         int n;
-        Scanner sc= new Scanner(System.in);
+        Scanner in;
+        in= new Scanner(System.in);
         System.out.println( "Enter Number");
-        n=sc.nextInt();
+        n=in.nextInt();
         System.out.println("Number entered by the user is "+n);
+        in.close();
     }
     public static void main(String[] args){
         oops obj =  new oops();
