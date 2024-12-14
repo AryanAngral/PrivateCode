@@ -2,5 +2,6 @@
     "files.associations": {
         "stdio.h": "c"
     },
-    "livePreview.defaultPreviewPath": "/cs50-web-dev-course/flexbox.html"
+    "livePreview.defaultPreviewPath": "/cs50-web-dev-course/flexbox.html",
+    "python.analysis.autoImportCompletions": false
 }

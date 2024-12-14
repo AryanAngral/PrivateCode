@@ -1,0 +1,2 @@
+we are using file handling with 2nd method
+and today's date is 5 dec 2024
