@@ -1,0 +1,6 @@
+// Math function like Math.round()
+// Math.ceil()
+// Math.floor()
+Math.round(5.5)
+Math.floor(5.5)
+Math.ceil(5.5)
