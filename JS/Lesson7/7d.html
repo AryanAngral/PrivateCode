@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+
+    </head>
+    <body>
+
+    </body>
+    <script>
+        function convertToFahrenheit(celsius){
+            return ((celsius*(9/5))+32);
+        }
+        console.log((convertToFahrenheit(25)));
+
+        function concertToCelsius(fahrenheit){
+            return ((fahrenheit-32)*(5/9));
+        }
+        console.log(concertToCelsius(86));
+        function convertTemperature(degrees,unit){  
+            if(unit==='C'){
+                console.log(convertToFahrenheit(degrees));
+            }
+            else if(unit==='F'){
+                console.log(concertToCelsius(degrees));
+            }
+            else{
+                console.log('Enter correct input');
+            }
+        }
+        convertTemperature(32,'F');
+    </script>
+</html>
