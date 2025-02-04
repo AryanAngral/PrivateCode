@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>8a</title>
+    </head>
+    <body>
+        
+    </body>
+    <script>
+            let product='basketball';
+            basketball={
+                name: 'basketball',
+                price: 2095
+            };
+            // Log the initial name and price of the basketball
+            console.log(basketball.name, basketball.price);
+
+            // Increase the price of the basketball by 500
+            basketball.price += 500;
+            console.log(basketball.name, basketball.price);
+
+            // Add a 'delivery-time' property with an undefined value
+            basketball['delivery-time'] = undefined;
+            console.log(basketball);
+
+            // Update the 'delivery-time' property to '3 days'
+            basketball['delivery-time'] = '3 days';
+            console.log(basketball);
+
+            // Delete the 'delivery-time' property
+            delete basketball['delivery-time'];
+            console.log(basketball);
+
+            function comparePrice(product1,product2){
+                if(product1.price>product2.price){
+                    return product1.name;
+                }else if(product1.price<product2.price){
+                    return product2.name;
+                }else{
+                    return 'The prices are equal';
+                }
+            }
+
+            function isSameProduct(product1,product2){
+                if(product1.name===product2.name && product1.price===product2.price){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
+            product1={
+                name: 'basketball',
+                price: 2095
+            };
+            product2={
+                name: 'basketball',
+                price: 2095
+            };
+            console.log(comparePrice(product1,product2));
+            console.log(isSameProduct(product1,product2));
+    </script>
+</html>
