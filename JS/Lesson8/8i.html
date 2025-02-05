@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        
+    </head>
+    <body>
+        <button onclick="
+            update('Heads');
+            eval();
+        ">Heads</button>
+
+        <button onclick="
+            update('Tails') ;
+            eval();
+        ">Tails</button>
+
+        <script>
+            let guess= localStorage.getItem('guess') ||'';
+            function update(value) {
+                guess=value;
+                localStorage.setItem('guess',guess);
+                console.log(guess);
+            }
+            
+            function eval(){let x= Math.random();
+            let result;
+            if(x>=0 && x<=0.49){
+                result='Heads';
+            }
+            else{
+                result='Tails';
+            }
+            let rez;
+            if(result===guess){
+                rez="Win";
+            }
+            else{
+                rez="Loose";
+            }
+            console.log(rez);
+        }
+        </script>
+    </body>
+</html>
