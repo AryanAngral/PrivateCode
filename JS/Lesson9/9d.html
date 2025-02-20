@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" class="name" placeholder="Name" onkeydown="
+           handel(event)">
+        <button>submit</button>
+    </body>
+    <script>
+        function handel(event){
+        if(event.key === 'Enter'){
+            console.log(document.querySelector('.name').value);
+        }
+    }
+    </script>
+</html>
