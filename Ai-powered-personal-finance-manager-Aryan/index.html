@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Dashboard</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/chatbot.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        <header>
+            <div class="header">
+                <div class="logo"></div>
+                <nav>
+                    <ul class="nav-links">
+                        <li id="home">Home</li>
+                        <li id="salary">Salary</li>
+                        <li id="transactions">Transactions</li>
+                        <li id="investment">Investment</li>
+                        <li id="tax-status">Tax Status</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="dashboard" id="dashboard">
+            <div class="card">
+                <h3>Followers</h3>
+                <p>1,484</p>
+            </div>
+            <div class="card">
+                <h3>New Followers</h3>
+                <canvas id="followersChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Net Followers</h3>
+                <canvas id="netFollowersChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Clicks</h3>
+                <canvas id="clicksChart"></canvas>
+            </div>
+            <div class="card">
+                <h3>Impressions</h3>
+                <canvas id="impressionsChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🟢 Chatbot Icon -->
+    <div id="chatbotIcon" class="chatbot-icon">💬</div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
